@@ -1,5 +1,5 @@
 """
-PADDOS SAFETY ENGINE
+DEVINA SAFETY ENGINE
 ====================
 Advanced safety calculation with service availability detection
 """
@@ -39,7 +39,7 @@ def calculate_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> fl
 
 
 def fetch_osm_data(query: str) -> Tuple[List[Dict], bool]:
-    """Fetch OSM data with success indicator"""
+    """Fetching OSM data with success indicator"""
     try:
         response = requests.post(OVERPASS_URL, data={'data': query}, timeout=TIMEOUT)
         if response.status_code == 200:
@@ -104,7 +104,7 @@ def calculate_safety_score(lat: float, lon: float, country_code: str = 'XX') -> 
     """
     
     print(f"\n{'='*70}")
-    print(f"PADDOS: Calculating for ({lat:.4f}, {lon:.4f})")
+    print(f"DEVINA: Calculating for ({lat:.4f}, {lon:.4f})")
     print(f"{'='*70}")
     
     try:
@@ -119,7 +119,7 @@ def calculate_safety_score(lat: float, lon: float, country_code: str = 'XX') -> 
         
         print(f"✓ Time: {time_score}")
         
-        # Get data with success tracking
+        # Getting data with success tracking
         hospitals, hosp_success = get_nearby_places(lat, lon, 'hospital', 5000)
         police, police_success = get_nearby_places(lat, lon, 'police', 5000)
         bus_stops, bus_success = get_nearby_places(lat, lon, 'bus_stop', 1000)
@@ -127,7 +127,7 @@ def calculate_safety_score(lat: float, lon: float, country_code: str = 'XX') -> 
         activity, activity_success = get_nearby_places(lat, lon, 'activity', 600)
         infra, infra_success = get_nearby_places(lat, lon, 'infrastructure', 500)
         
-        # Check if minimum required data is available
+        # Checking if minimum required data is available
         services_available = (hosp_success or police_success) and activity_success
         
         if not services_available:
@@ -217,7 +217,7 @@ def calculate_safety_score(lat: float, lon: float, country_code: str = 'XX') -> 
             else:
                 infra_score = 30
         
-        # Calculate weighted score
+        # Calculating weighted score
         raw_score = (
             time_score * WEIGHTS['temporal_risk'] +
             emerg_score * WEIGHTS['emergency_proximity'] +
@@ -240,7 +240,7 @@ def calculate_safety_score(lat: float, lon: float, country_code: str = 'XX') -> 
         
         print(f"✓ Final: {final_score:.1f} ({rating})\n")
         
-        # Calculate confidence
+        # Calculating confidence
         data_quality = sum([hosp_success, police_success, activity_success, infra_success]) / 4
         confidence = round(data_quality * 85, 1)
         
@@ -322,3 +322,4 @@ def calculate_safety_score(lat: float, lon: float, country_code: str = 'XX') -> 
             'all_places': {'hospitals': [], 'police_stations': [], 'bus_stops': [], 'train_stations': []},
             'stats': {'activity_count': 0, 'infrastructure_count': 0, 'emergency_services_density': 0}
         }
+
