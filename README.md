@@ -11,7 +11,7 @@ Women’s safety is highly contextual and remains a significant concern in the r
 
 Many safety-related applications focus primarily on reactive alerts. Devina was built to explore a proactive, informational approach — helping users reason about their surroundings using clearly explained signals, while intentionally avoiding false certainty or overconfident predictions.
 
-⚙️ How It Works (High Level)
+⚙️ How It Works 
 
 
 Devina computes a safety score by combining four primary contextual signals:
