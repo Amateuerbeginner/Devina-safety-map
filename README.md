@@ -1,3 +1,4 @@
+![gallery(1)](https://github.com/user-attachments/assets/1367afc5-d6c3-4f3e-b5df-6efb6d9ca88a)
 ![gallery(1)](https://github.com/user-attachments/assets/48e09cd6-f999-4302-9e20-deca6b60aef6)
 🌸 Devina – A Context-Aware Women’s Safety Companion (Prototype)
 
@@ -94,5 +95,8 @@ Through this project, I explored and learned:
 *User feedback integration
 *Improved explainability of individual score components
 *Offline and low-connectivity support
-*Stronger privacy and data minimization practices![gallery](https://github.com/user-attachments/assets/f91fe549-cb3c-4d34-8c77-47349559a57e)
+*Stronger privacy and data minimization practices!
+[gallery](https://github.com/user-attachments/assets/f91fe549-cb3c-4d34-8c77-47349559a57e)
+![gallery(1)](https://github.com/user-attachments/assets/5267aaca-8f7d-4ed4-9e17-023c69ba8bc8)
+
 
