@@ -96,4 +96,4 @@ Through this project, I explored and learned:
 *Offline and low-connectivity support
 *Stronger privacy and data minimization practices!
 
-
+<img src="gallery.jpg" alt="Screenshot of application in action" width="500">
