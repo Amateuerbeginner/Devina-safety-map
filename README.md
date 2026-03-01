@@ -1,5 +1,4 @@
-![gallery(1)](https://github.com/user-attachments/assets/1367afc5-d6c3-4f3e-b5df-6efb6d9ca88a)
-![gallery(1)](https://github.com/user-attachments/assets/48e09cd6-f999-4302-9e20-deca6b60aef6)
+
 🌸 Devina – A Context-Aware Women’s Safety Companion (Prototype)
 
 
