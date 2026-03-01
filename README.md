@@ -1,5 +1,5 @@
 
-🌸 Devina – A Context-Aware Women’s Safety Companion (Prototype)
+🌸Devina – A Context-Aware Women’s Safety Companion (Prototype)
 
 
  Devina is a prototype web application that explores how contextual, real-world signals can be combined into an interpretable safety indicator for a given location.
