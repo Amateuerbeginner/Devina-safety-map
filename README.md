@@ -95,7 +95,7 @@ Through this project, I explored and learned:
 *Improved explainability of individual score components
 *Offline and low-connectivity support
 *Stronger privacy and data minimization practices!
-[gallery](https://github.com/user-attachments/assets/f91fe549-cb3c-4d34-8c77-47349559a57e)
-![gallery(1)](https://github.com/user-attachments/assets/5267aaca-8f7d-4ed4-9e17-023c69ba8bc8)
+[gallery](https://github.com/user-attachments/assets/f91fe549-cb3c-4d34-8c77-47349559a57e)!
+[gallery(1)](https://github.com/user-attachments/assets/5267aaca-8f7d-4ed4-9e17-023c69ba8bc8)
 
 
