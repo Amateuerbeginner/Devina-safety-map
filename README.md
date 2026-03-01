@@ -66,19 +66,7 @@ The application is structured into distinct layers (UI, backend, safety logic) t
 *Ethical caution
 The system avoids framing outputs as guarantees and emphasizes context rather than prediction.
 
-🤖 Use of AI-Assisted Tools
 
-AI-assisted tools were used during development as implementation and iteration aids.
-
-MY ROLE FOCUSED ON:
-
-*Defining the problem and constraints
-*Designing the safety logic and scoring structure
-*Selecting data sources and validation rules
-*Evaluating outputs and handling edge cases
-*Iterating on system behaviour and failure handling
-*This project was also used as a learning exercise, where concepts were studied and applied as they became necessary to solve specific challenges.
-*Deploying this project via rendr
 
 📚 WHAT I LEARNED:
 
@@ -105,4 +93,5 @@ Through this project, I explored and learned:
 *User feedback integration
 *Improved explainability of individual score components
 *Offline and low-connectivity support
-*Stronger privacy and data minimization practices
+*Stronger privacy and data minimization practices![gallery](https://github.com/user-attachments/assets/f91fe549-cb3c-4d34-8c77-47349559a57e)
+
