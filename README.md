@@ -97,5 +97,6 @@ Through this project, I explored and learned:
 *Stronger privacy and data minimization practices!
 
 <img src="gallery.jpg" alt="Screenshot of application in action" width="500">
-<img src="gallery(1).jpg" alt="Screenshot of application in action" width="500">
+![gallery (1)](https://github.com/user-attachments/assets/969f49ef-f491-497c-be09-aa67c1227518)
+
 
