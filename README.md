@@ -1,4 +1,4 @@
-can be tested live on : https://devina.onrender.com
+can be tested live on : https://devina.onrender.com [60 seconds to load due to free tier limitation]
 
 
 🌸Devina – A Context-Aware Women’s Safety Companion (Prototype)
